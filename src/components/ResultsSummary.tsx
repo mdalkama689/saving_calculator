@@ -1,7 +1,7 @@
 import React from 'react';
 import { formatCurrency } from '../utils/formatters';
 import { SavingsResult } from '../types/savings';
-import { Download, Share2 } from 'lucide-react';
+import { Download } from 'lucide-react';
 
 interface ResultsSummaryProps {
   results: SavingsResult;
